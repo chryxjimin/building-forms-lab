@@ -39,12 +39,3 @@ class BandInput extends Component {
 }
 
 export default BandInput
-
-
-//We would like to update this component's state 
-// each time the user types a new character in the input, 
-// stored as this.state.name. We will only update the Redux 
-// store's state with prop addBand, which calls dispatch when the user hits the submit button. 
-// The dispatched action required to initiate this 
-// update should be set up in BandsContainer and passed 
-// down as the prop addBand to BandInput.
